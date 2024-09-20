@@ -11,11 +11,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position:relative ;
     }
 .container{
     display: flex;
     align-items: center;
 }
 .container-imagem{
-
+    padding: 1em;
+}
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+.container-botao:checked ~ .lista-menu{
+    display: block;
+}
+.lista-menu-titulo,.lista-item{
+    padding: 1em;
+    background-color: var(--laranja);
 }

@@ -30,5 +30,12 @@
 }
 .lista-menu-titulo,.lista-item{
     padding: 1em;
-    background-color: var(--laranja);
+    background-color: var(--branco);
+}
+.lista-menu-titulo{
+    color: var(--laranja);
+    font-weight: 700;
+}
+.container-botao{
+    display: none;
 }

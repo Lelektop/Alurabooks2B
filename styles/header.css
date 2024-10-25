@@ -5,14 +5,14 @@
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
-    }
+}
 .cabecalho{
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position:relative ;
-    }
+    position: relative;
+}
 .container{
     display: flex;
     align-items: center;
@@ -38,11 +38,11 @@
     font-weight: 700;
 }
 .lista-menu-link{
-    background: var(--azul-degrade);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-color: text;
-    text-transform: uppercase;
+        background: var(--azul-degrade);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-transform: uppercase;
 }
 .container-botao{
     display: none;
